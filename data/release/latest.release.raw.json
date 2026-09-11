@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 3214531,
       "digest": "sha256:154c901c6a75a7b655fa486817e2836bae5f48da94ddc05d377e3cb7ac891cdd",
-      "download_count": 300,
+      "download_count": 301,
       "created_at": "2026-06-11T08:08:54Z",
       "updated_at": "2026-06-11T08:08:54Z",
       "browser_download_url": "https://github.com/tuna-f1sh/cyme/releases/download/v3.0.1/cyme-v3.0.1-x86_64-unknown-linux-gnu.tar.gz"
