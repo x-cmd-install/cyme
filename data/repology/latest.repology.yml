@@ -1,32 +1,18 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: parrot
+  subrepo: parrot/main
   srcname: cyme
   binnames:
     - cyme
   visiblename: cyme
-  version: 3.0.1
-  origversion: 3.0.1+dfsg-3
-  status: newest
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-2
+  status: outdated
   maintainers:
     - dr@jones.dk
   categories:
     - misc
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: 3.0.1
-  origversion: null
-  status: newest
-  summary: List system USB buses and devices
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: List system USB buses and devices
-- repo: raspbian_stable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: cyme
   binnames:
     - cyme
@@ -46,11 +32,44 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1+dfsg-3
-  status: newest
+  status: outdated
   maintainers:
     - dr@jones.dk
   categories:
     - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-2
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.1
+  origversion: 3.0.1+dfsg-3
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: null
+  status: newest
+  summary: List system USB buses and devices
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -58,7 +77,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: modern lsusb that attempts to maintain compatibility, but also adds new features
   maintainers:
     - omni+alpine@hack.org
@@ -71,7 +90,7 @@
   visiblename: cyme-bash-completion
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: Bash completions for cyme
   maintainers:
     - omni+alpine@hack.org
@@ -84,7 +103,7 @@
   visiblename: cyme-doc
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: modern lsusb that attempts to maintain compatibility, but also adds new features (documentation)
   maintainers:
     - omni+alpine@hack.org
@@ -97,7 +116,7 @@
   visiblename: cyme-fish-completion
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: Fish completions for cyme
   maintainers:
     - omni+alpine@hack.org
@@ -110,7 +129,7 @@
   visiblename: cyme-zsh-completion
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: Zsh completions for cyme
   maintainers:
     - omni+alpine@hack.org
@@ -123,7 +142,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: modern lsusb that attempts to maintain compatibility, but also adds new features
   maintainers:
     - omni+alpine@hack.org
@@ -136,12 +155,19 @@
   visiblename: cyme-bash-completion
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: Bash completions for cyme
   maintainers:
     - omni+alpine@hack.org
   licenses:
     - GPL-3.0-or-later
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: List system USB buses and devices
 - repo: alpine_edge
   subrepo: community
   srcname: cyme
@@ -149,7 +175,7 @@
   visiblename: cyme-doc
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: modern lsusb that attempts to maintain compatibility, but also adds new features (documentation)
   maintainers:
     - omni+alpine@hack.org
@@ -162,7 +188,7 @@
   visiblename: cyme-fish-completion
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: Fish completions for cyme
   maintainers:
     - omni+alpine@hack.org
@@ -175,7 +201,7 @@
   visiblename: cyme-zsh-completion
   version: 3.0.1
   origversion: 3.0.1-r0
-  status: newest
+  status: outdated
   summary: Zsh completions for cyme
   maintainers:
     - omni+alpine@hack.org
@@ -188,7 +214,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1-1
-  status: newest
+  status: outdated
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
@@ -196,8 +222,8 @@
   srcname: cyme-bin
   binname: cyme-bin
   visiblename: cyme-bin
-  version: 3.0.1
-  origversion: 3.0.1-1
+  version: 3.0.2
+  origversion: 3.0.2-1
   status: newest
   summary: List system USB buses and devices; a modern cross-platform lsusb
   maintainers:
@@ -237,7 +263,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1+dfsg-3
-  status: newest
+  status: outdated
   maintainers:
     - dr@jones.dk
   categories:
@@ -250,7 +276,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1+dfsg-3
-  status: newest
+  status: outdated
   maintainers:
     - dr@jones.dk
   categories:
@@ -263,7 +289,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1+dfsg-3
-  status: newest
+  status: outdated
   maintainers:
     - dr@jones.dk
   categories:
@@ -273,7 +299,7 @@
   visiblename: sys-apps/cyme
   version: 3.0.1
   origversion: null
-  status: newest
+  status: outdated
   summary: List system USB buses and devices; a modern cross-platform `lsusb`
   maintainers:
     - mgorny@gentoo.org
@@ -353,7 +379,7 @@
   visiblename: sys-apps/cyme
   version: 3.0.1
   origversion: null
-  status: newest
+  status: outdated
   summary: List system USB buses and devices; a modern cross-platform `lsusb`
   maintainers:
     - mgorny@gentoo.org
@@ -391,7 +417,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1-1
-  status: newest
+  status: outdated
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
@@ -402,7 +428,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1-1
-  status: newest
+  status: outdated
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
@@ -413,7 +439,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1-1
-  status: newest
+  status: outdated
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
@@ -477,7 +503,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Modern cross-platform lsusb
   maintainers:
     - h7x4@nani.wtf
@@ -490,36 +516,10 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1-1
-  status: newest
+  status: outdated
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-2
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-2
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
 - repo: pureos_landing
   subrepo: landing/main
   srcname: cyme
@@ -537,7 +537,7 @@
   subrepo: main
   binname: cyme
   visiblename: cyme
-  version: 3.0.1
+  version: 3.0.2
   origversion: null
   status: newest
   licenses:
@@ -547,7 +547,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: null
-  status: newest
+  status: outdated
   summary: A modern cross-platform lsusb written in Rust
   maintainers:
     - rene@exactco.de
@@ -602,7 +602,7 @@
   visiblename: cyme
   version: 3.0.1
   origversion: 3.0.1+dfsg-3
-  status: newest
+  status: outdated
   maintainers:
     - dr@jones.dk
   categories:
