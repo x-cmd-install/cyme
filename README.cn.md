@@ -31,54 +31,54 @@ x install cyme
 
 ## 发布
 
-- **最新版本**: `v3.0.1` (2026-06-11)
-- **最近提交**: 2026-09-02
+- **最新版本**: `v3.0.2` (2026-09-11)
+- **最近提交**: 2026-09-11
 - **Release 含资产**: 6 个
 
 ## 流行度
 
-- **Star**: 1,189 · **Fork**: 29 · **开放 issue**: 47 · **贡献者**: 16
+- **Star**: 1,191 · **Fork**: 29 · **开放 issue**: 47 · **贡献者**: 16
 
 ## 累计统计
 
-- **发布数**: 56 · **已合并 PR**: 74 · **开放 PR**: 1 · **已关闭 issue**: 46 · **开放 issue**: 1 · **提交数**: 776
+- **发布数**: 57 · **已合并 PR**: 74 · **开放 PR**: 1 · **已关闭 issue**: 46 · **开放 issue**: 1 · **提交数**: 777
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 1 | 0 | 0 | 0 | 1 |
-| last60d | 2026-07-13 | 0 | 1 | 1 | 0 | 0 | 4 |
-| 90d | 2026-06-13 | 0 | 7 | 1 | 0 | 1 | 14 |
-| last180d | 2026-03-15 | 3 | 19 | 1 | 2 | 1 | 87 |
-| 360d | 2025-09-16 | 10 | 36 | 1 | 10 | 1 | 159 |
-| last720d | 2024-09-21 | 23 | 61 | 1 | 26 | 1 | 412 |
+| 30d | 2026-08-12 | 1 | 1 | 0 | 0 | 0 | 2 |
+| last60d | 2026-07-13 | 1 | 1 | 1 | 0 | 0 | 5 |
+| 90d | 2026-06-13 | 1 | 7 | 1 | 0 | 1 | 15 |
+| last180d | 2026-03-15 | 4 | 19 | 1 | 2 | 1 | 88 |
+| 360d | 2025-09-16 | 11 | 36 | 1 | 10 | 1 | 160 |
+| last720d | 2024-09-21 | 24 | 61 | 1 | 26 | 1 | 413 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [cyme-3.0.1-1-amd64.deb](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.1/cyme-3.0.1-1-amd64.deb) | 2.2 MiB | `other` |
-| [cyme-3.0.1-1-arm64.deb](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.1/cyme-3.0.1-1-arm64.deb) | 2.0 MiB | `other` |
-| [cyme-v3.0.1-aarch64-unknown-linux-gnu.tar.gz](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.1/cyme-v3.0.1-aarch64-unknown-linux-gnu.tar.gz) | 3.1 MiB | `native/linux/arm64/glibc` |
-| [cyme-v3.0.1-universal-apple-darwin.tar.gz](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.1/cyme-v3.0.1-universal-apple-darwin.tar.gz) | 5.8 MiB | `native/darwin/x64` |
-| [cyme-v3.0.1-x86_64-pc-windows-gnu.zip](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.1/cyme-v3.0.1-x86_64-pc-windows-gnu.zip) | 2.7 MiB | `native/win/x64` |
-| [cyme-v3.0.1-x86_64-unknown-linux-gnu.tar.gz](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.1/cyme-v3.0.1-x86_64-unknown-linux-gnu.tar.gz) | 3.1 MiB | `native/linux/x64/glibc` |
+| [cyme-3.0.2-1-amd64.deb](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-3.0.2-1-amd64.deb) | 2.1 MiB | `other` |
+| [cyme-3.0.2-1-arm64.deb](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-3.0.2-1-arm64.deb) | 2.0 MiB | `other` |
+| [cyme-v3.0.2-aarch64-unknown-linux-gnu.tar.gz](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-aarch64-unknown-linux-gnu.tar.gz) | 3.0 MiB | `native/linux/arm64/glibc` |
+| [cyme-v3.0.2-universal-apple-darwin.tar.gz](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-universal-apple-darwin.tar.gz) | 5.7 MiB | `native/darwin/x64` |
+| [cyme-v3.0.2-x86_64-pc-windows-gnu.zip](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-pc-windows-gnu.zip) | 2.8 MiB | `native/win/x64` |
+| [cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz) | 3.0 MiB | `native/linux/x64/glibc` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/cyme) 上共有 **48** 个发行版报告此项目。**28** 个 ✅ 已是最新上游版本，**15** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/cyme) 上共有 **48** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**40** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `3.0.1` | ✅ latest |
-| Debian 14 | `3.0.1` | ✅ latest |
+| Debian unstable | `3.0.1` | ⚠️ outdated |
+| Debian 14 | `3.0.1` | ⚠️ outdated |
 | Debian 13 | `2.2.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.2.11` | ⚠️ outdated |
-| Arch | `3.0.1` | ✅ latest |
-| Homebrew | `3.0.1` | ✅ latest |
-| Nix unstable | `3.0.1` | ✅ latest |
-| Alpine edge | `3.0.1` | ✅ latest |
+| Arch | `3.0.1` | ⚠️ outdated |
+| Homebrew | `3.0.2` | ✅ latest |
+| Nix unstable | `3.0.1` | ⚠️ outdated |
+| Alpine edge | `3.0.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -89,4 +89,4 @@ cyme 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T05:44:12Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T19:12:32Z._
