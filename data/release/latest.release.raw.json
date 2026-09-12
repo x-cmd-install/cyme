@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 5992671,
       "digest": "sha256:0d2d327e54d3851c44ea7c43348064d664c5baa1b20679c587edb50bc331bcd9",
-      "download_count": 4,
+      "download_count": 5,
       "created_at": "2026-09-11T08:52:27Z",
       "updated_at": "2026-09-11T08:52:28Z",
       "browser_download_url": "https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-universal-apple-darwin.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2889747,
       "digest": "sha256:e40d3d77bec7c42378ece627be832ce0d2fd6b1a571cbab5317a3fa76c5e7944",
-      "download_count": 24,
+      "download_count": 42,
       "created_at": "2026-09-11T08:52:27Z",
       "updated_at": "2026-09-11T08:52:27Z",
       "browser_download_url": "https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-pc-windows-gnu.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 3185720,
       "digest": "sha256:72407562dc044652b502050580d7dc34aed1dd2acfcc4d3932bbb29df9f4b707",
-      "download_count": 21,
+      "download_count": 29,
       "created_at": "2026-09-11T08:52:28Z",
       "updated_at": "2026-09-11T08:52:28Z",
       "browser_download_url": "https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz"
