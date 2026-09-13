@@ -1,29 +1,58 @@
-- repo: parrot
-  subrepo: parrot/main
+- repo: t2
+  srcname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: null
+  status: newest
+  summary: A modern cross-platform lsusb written in Rust
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - GPL3
+  categories:
+    - base/system
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
   srcname: cyme
   binnames:
     - cyme
   visiblename: cyme
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-2
+  version: 2.1.2
+  origversion: 2.1.2+dfsg-1
   status: outdated
   maintainers:
     - dr@jones.dk
   categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
+    - universe/misc
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: cyme
-  binnames:
-    - cyme
+  binname: cyme
   visiblename: cyme
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-2
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: newest
+  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
+  licenses:
+    - GPL-3.0-or-later
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: List system USB buses and devices
+- repo: nix_stable_24_05
+  srcname: cyme
+  visiblename: cyme
+  version: 1.6.0
+  origversion: null
   status: outdated
+  summary: A modern cross-platform lsusb
   maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
+    - h7x4@nani.wtf
+  licenses:
+    - GPL-3.0-or-later
 - repo: kali_rolling
   subrepo: main
   srcname: cyme
@@ -63,13 +92,15 @@
     - dr@jones.dk
   categories:
     - misc
-- repo: homebrew
-  srcname: cyme
+- repo: scoop
+  subrepo: main
+  binname: cyme
   visiblename: cyme
   version: 3.0.2
   origversion: null
   status: newest
-  summary: List system USB buses and devices
+  licenses:
+    - GPL-3.0-only
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -161,13 +192,6 @@
     - omni+alpine@hack.org
   licenses:
     - GPL-3.0-or-later
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: List system USB buses and devices
 - repo: alpine_edge
   subrepo: community
   srcname: cyme
@@ -212,9 +236,9 @@
   srcname: cyme
   binname: cyme
   visiblename: cyme
-  version: 3.0.1
-  origversion: 3.0.1-1
-  status: outdated
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: newest
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
@@ -299,7 +323,25 @@
   visiblename: sys-apps/cyme
   version: 3.0.1
   origversion: null
-  status: outdated
+  status: legacy
+  summary: List system USB buses and devices; a modern cross-platform `lsusb`
+  maintainers:
+    - mgorny@gentoo.org
+  licenses:
+    - GPL-3+
+    - Apache-2.0
+    - LGPL-2+
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+  categories:
+    - sys-apps
+- repo: gentoo
+  srcname: sys-apps/cyme
+  visiblename: sys-apps/cyme
+  version: 3.0.2
+  origversion: null
+  status: newest
   summary: List system USB buses and devices; a modern cross-platform `lsusb`
   maintainers:
     - mgorny@gentoo.org
@@ -337,6 +379,13 @@
   version: 1.7.0
   origversion: null
   status: outdated
+  summary: List system USB buses and devices
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: null
+  status: newest
   summary: List system USB buses and devices
 - repo: liguros_stable
   srcname: sys-apps/cyme
@@ -432,28 +481,6 @@
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: cyme
-  binname: cyme
-  visiblename: cyme
-  version: 3.0.1
-  origversion: 3.0.1-1
-  status: outdated
-  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
-  licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_24_05
-  srcname: cyme
-  visiblename: cyme
-  version: 1.6.0
-  origversion: null
-  status: outdated
-  summary: A modern cross-platform lsusb
-  maintainers:
-    - h7x4@nani.wtf
-  licenses:
-    - GPL-3.0-or-later
 - repo: nix_stable_24_11
   srcname: cyme
   visiblename: cyme
@@ -520,6 +547,32 @@
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
+- repo: parrot
+  subrepo: parrot/main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-2
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-2
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: pureos_landing
   subrepo: landing/main
   srcname: cyme
@@ -533,41 +586,6 @@
     - dr@jones.dk
   categories:
     - utils
-- repo: scoop
-  subrepo: main
-  binname: cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: null
-  status: newest
-  licenses:
-    - GPL-3.0-only
-- repo: t2
-  srcname: cyme
-  visiblename: cyme
-  version: 3.0.1
-  origversion: null
-  status: outdated
-  summary: A modern cross-platform lsusb written in Rust
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - GPL3
-  categories:
-    - base/system
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 2.1.2
-  origversion: 2.1.2+dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - universe/misc
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: cyme
