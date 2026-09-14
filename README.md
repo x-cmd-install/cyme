@@ -47,12 +47,12 @@ Total: **38,930** lines of code across **55** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 1 | 0 | 0 | 0 | 2 |
-| last60d | 2026-07-15 | 1 | 1 | 1 | 0 | 0 | 3 |
-| 90d | 2026-06-15 | 1 | 7 | 1 | 0 | 1 | 15 |
-| last180d | 2026-03-17 | 4 | 17 | 1 | 2 | 1 | 68 |
-| 360d | 2025-09-18 | 11 | 35 | 1 | 9 | 1 | 150 |
-| last720d | 2024-09-23 | 23 | 60 | 1 | 26 | 1 | 411 |
+| 30d | 2026-08-15 | 1 | 1 | 0 | 0 | 0 | 2 |
+| last60d | 2026-07-16 | 1 | 1 | 1 | 0 | 0 | 3 |
+| 90d | 2026-06-16 | 1 | 7 | 1 | 0 | 1 | 15 |
+| last180d | 2026-03-18 | 4 | 17 | 1 | 2 | 1 | 68 |
+| 360d | 2025-09-19 | 11 | 35 | 1 | 9 | 1 | 150 |
+| last720d | 2024-09-24 | 23 | 60 | 1 | 26 | 1 | 411 |
 
 ## Release assets
 
@@ -65,21 +65,6 @@ Total: **38,930** lines of code across **55** files in the top 5 languages.
 | [cyme-v3.0.2-x86_64-pc-windows-gnu.zip](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-pc-windows-gnu.zip) | 2.8 MiB | `native/win/x64` |
 | [cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz) | 3.0 MiB | `native/linux/x64/glibc` |
 
-## Distribution status
-
-Reported by **49** distros on [repology.org](https://repology.org/project/cyme). **7** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.0.1` | ⚠️ outdated |
-| Debian 14 | `3.0.1` | ⚠️ outdated |
-| Debian 13 | `2.2.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.2.11` | ⚠️ outdated |
-| Arch | `3.0.2` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Nix unstable | `3.0.1` | ⚠️ outdated |
-| Alpine edge | `3.0.1` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for cyme lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `cyme` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -89,4 +74,4 @@ Install metadata for cyme lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:41:37Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:01:39Z._
