@@ -37,7 +37,7 @@ Total: **38,930** lines of code across **55** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,206 · **Forks**: 32 · **Open issues**: 47 · **Contributors**: 16
+- **Stars**: 1,209 · **Forks**: 32 · **Open issues**: 47 · **Contributors**: 16
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **38,930** lines of code across **55** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 1 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-08-11 | 1 | 1 | 0 | 0 | 0 | 2 |
-| 90d | 2026-07-12 | 1 | 2 | 1 | 0 | 0 | 8 |
-| last180d | 2026-04-13 | 3 | 12 | 1 | 2 | 1 | 58 |
-| 360d | 2025-10-15 | 9 | 33 | 1 | 6 | 1 | 145 |
-| last720d | 2024-10-20 | 20 | 55 | 1 | 19 | 1 | 339 |
+| 30d | 2026-09-11 | 1 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-08-12 | 1 | 1 | 0 | 0 | 0 | 2 |
+| 90d | 2026-07-13 | 1 | 1 | 1 | 0 | 0 | 8 |
+| last180d | 2026-04-14 | 3 | 12 | 1 | 2 | 1 | 58 |
+| 360d | 2025-10-16 | 9 | 33 | 1 | 6 | 1 | 145 |
+| last720d | 2024-10-21 | 20 | 55 | 1 | 19 | 1 | 339 |
 
 ## Release assets
 
@@ -74,4 +74,4 @@ Install metadata for cyme lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T06:31:57Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T06:30:50Z._
