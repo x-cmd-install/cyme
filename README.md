@@ -37,7 +37,7 @@ Total: **38,930** lines of code across **55** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,215 · **Forks**: 32 · **Open issues**: 47 · **Contributors**: 16
+- **Stars**: 1,216 · **Forks**: 32 · **Open issues**: 47 · **Contributors**: 16
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **38,930** lines of code across **55** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 1 | 1 | 0 | 0 | 0 | 2 |
-| 90d | 2026-07-24 | 1 | 1 | 0 | 0 | 0 | 3 |
-| last180d | 2026-04-25 | 3 | 12 | 1 | 1 | 1 | 56 |
-| 360d | 2025-10-27 | 8 | 33 | 1 | 6 | 1 | 132 |
-| last720d | 2024-11-01 | 19 | 50 | 1 | 18 | 1 | 325 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 1 | 1 | 0 | 0 | 0 | 2 |
+| 90d | 2026-07-25 | 1 | 1 | 0 | 0 | 0 | 3 |
+| last180d | 2026-04-26 | 3 | 12 | 1 | 1 | 1 | 56 |
+| 360d | 2025-10-28 | 8 | 32 | 1 | 5 | 1 | 132 |
+| last720d | 2024-11-02 | 19 | 50 | 1 | 18 | 1 | 325 |
 
 ## Release assets
 
@@ -65,6 +65,21 @@ Total: **38,930** lines of code across **55** files in the top 5 languages.
 | [cyme-v3.0.2-x86_64-pc-windows-gnu.zip](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-pc-windows-gnu.zip) | 2.8 MiB | `native/win/x64` |
 | [cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz) | 3.0 MiB | `native/linux/x64/glibc` |
 
+## Distribution status
+
+Reported by **50** distros on [repology.org](https://repology.org/project/cyme). **26** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.0.2` | ✅ latest |
+| Debian 14 | `3.0.2` | ✅ latest |
+| Debian 13 | `2.2.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.2.11` | ⚠️ outdated |
+| Arch | `3.0.2` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Nix unstable | `3.0.2` | ✅ latest |
+| Alpine edge | `3.0.2` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for cyme lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `cyme` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -74,4 +89,4 @@ Install metadata for cyme lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:27:58Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:30:38Z._
