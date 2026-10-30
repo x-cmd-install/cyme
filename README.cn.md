@@ -47,12 +47,12 @@ x install cyme
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-30 | 1 | 1 | 0 | 0 | 0 | 1 |
-| 90d | 2026-07-31 | 1 | 1 | 0 | 0 | 0 | 3 |
-| last180d | 2026-05-02 | 3 | 12 | 1 | 1 | 1 | 56 |
-| 360d | 2025-11-03 | 8 | 28 | 1 | 5 | 1 | 129 |
-| last720d | 2024-11-08 | 19 | 49 | 1 | 18 | 1 | 320 |
+| 30d | 2026-09-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-31 | 1 | 1 | 0 | 0 | 0 | 1 |
+| 90d | 2026-08-01 | 1 | 1 | 0 | 0 | 0 | 3 |
+| last180d | 2026-05-03 | 3 | 12 | 1 | 1 | 1 | 56 |
+| 360d | 2025-11-04 | 8 | 28 | 1 | 5 | 1 | 129 |
+| last720d | 2024-11-09 | 19 | 49 | 1 | 18 | 1 | 320 |
 
 ## Release 资产
 
@@ -76,7 +76,7 @@ x install cyme
 | Debian 13 | `2.2.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.2.11` | ⚠️ outdated |
 | Arch | `3.0.2` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `3.0.2` | ✅ latest |
 | Nix unstable | `3.0.2` | ✅ latest |
 | Alpine edge | `3.0.2` | ✅ latest |
 
@@ -89,4 +89,4 @@ cyme 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261029.yml` · 2026-10-29T06:33:21Z._
+_数据快照: `data/card/261030.yml` · 2026-10-30T06:32:43Z._
