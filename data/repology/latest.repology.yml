@@ -1,23 +1,41 @@
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: List system USB buses and devices
-- repo: kali_rolling
-  subrepo: main
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: cyme
   binnames:
     - cyme
   visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2+dfsg-1
-  status: newest
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-2
+  status: outdated
   maintainers:
     - dr@jones.dk
   categories:
-    - misc
+    - universe/misc
+- repo: aur
+  srcname: cyme-bin
+  binname: cyme-bin
+  visiblename: cyme-bin
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: newest
+  summary: List system USB buses and devices; a modern cross-platform lsusb
+  maintainers:
+    - tuna-f1sh@aur
+  licenses:
+    - GPL
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 2.2.11
+  origversion: 2.2.11+dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -160,18 +178,6 @@
   licenses:
     - GPL-3.0-or-later
 - repo: aur
-  srcname: cyme-bin
-  binname: cyme-bin
-  visiblename: cyme-bin
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: newest
-  summary: List system USB buses and devices; a modern cross-platform lsusb
-  maintainers:
-    - tuna-f1sh@aur
-  licenses:
-    - GPL
-- repo: aur
   srcname: cyme-git
   binname: cyme-git
   visiblename: cyme-git
@@ -304,6 +310,26 @@
   origversion: null
   status: newest
   summary: List system USB buses and devices
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: List system USB buses and devices
+- repo: kali_rolling
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: sys-apps/cyme
   visiblename: sys-apps/cyme
@@ -322,6 +348,19 @@
     - Unicode-3.0
   categories:
     - sys-apps
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.1
+  origversion: 3.0.1+dfsg-3
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
 - repo: liguros_stable
   srcname: sys-apps/cyme
   visiblename: sys-apps/cyme
@@ -599,45 +638,6 @@
   visiblename: cyme
   version: 2.1.2
   origversion: 2.1.2+dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-2
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 2.2.11
-  origversion: 2.2.11+dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 3.0.1
-  origversion: 3.0.1+dfsg-3
   status: outdated
   maintainers:
     - dr@jones.dk
