@@ -1,3 +1,62 @@
+- repo: kali_rolling
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-2
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-2
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: null
+  status: newest
+  summary: List system USB buses and devices
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -102,6 +161,13 @@
     - omni+alpine@hack.org
   licenses:
     - GPL-3.0-or-later
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: List system USB buses and devices
 - repo: alpine_edge
   subrepo: community
   srcname: cyme
@@ -277,33 +343,6 @@
   origversion: null
   status: outdated
   summary: List system USB buses and devices
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: null
-  status: newest
-  summary: List system USB buses and devices
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: List system USB buses and devices
-- repo: kali_rolling
-  subrepo: main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2+dfsg-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: sys-apps/cyme
   visiblename: sys-apps/cyme
@@ -483,19 +522,6 @@
   licenses:
     - GPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot/main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-2
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: cyme
   binnames:
@@ -508,8 +534,8 @@
     - dr@jones.dk
   categories:
     - misc
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parrot
+  subrepo: parrot/main
   srcname: cyme
   binnames:
     - cyme
@@ -517,32 +543,6 @@
   version: 2.2.0
   origversion: 2.2.0+dfsg-2
   status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-2
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2+dfsg-1
-  status: newest
   maintainers:
     - dr@jones.dk
   categories:
