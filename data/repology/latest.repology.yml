@@ -1,62 +1,3 @@
-- repo: kali_rolling
-  subrepo: main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2+dfsg-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-2
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-2
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2+dfsg-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: null
-  status: newest
-  summary: List system USB buses and devices
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -161,13 +102,6 @@
     - omni+alpine@hack.org
   licenses:
     - GPL-3.0-or-later
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: List system USB buses and devices
 - repo: alpine_edge
   subrepo: community
   srcname: cyme
@@ -343,6 +277,33 @@
   origversion: null
   status: outdated
   summary: List system USB buses and devices
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: null
+  status: newest
+  summary: List system USB buses and devices
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: List system USB buses and devices
+- repo: kali_rolling
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: sys-apps/cyme
   visiblename: sys-apps/cyme
@@ -433,6 +394,28 @@
     - Unicode-3.0
   categories:
     - sys-apps
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: cyme
+  binname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: newest
+  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
+  licenses:
+    - GPL-3.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: cyme
+  binname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: newest
+  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
+  licenses:
+    - GPL-3.0-or-later
 - repo: manjaro_unstable
   subrepo: extra
   srcname: cyme
@@ -547,6 +530,45 @@
     - dr@jones.dk
   categories:
     - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-2
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-2
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: scoop
   subrepo: main
   binname: cyme
@@ -610,6 +632,19 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.1
+  origversion: 3.0.1+dfsg-3
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: cyme
   binnames:
     - cyme
