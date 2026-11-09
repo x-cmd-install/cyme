@@ -1,3 +1,47 @@
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: cyme
+  binname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: newest
+  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
+  licenses:
+    - GPL-3.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: cyme
+  binname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: newest
+  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
+  licenses:
+    - GPL-3.0-or-later
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: cyme
+  binname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: newest
+  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_24_05
+  srcname: cyme
+  visiblename: cyme
+  version: 1.6.0
+  origversion: null
+  status: outdated
+  summary: A modern cross-platform lsusb
+  maintainers:
+    - h7x4@nani.wtf
+  licenses:
+    - GPL-3.0-or-later
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -24,15 +68,6 @@
     - omni+alpine@hack.org
   licenses:
     - GPL-3.0-or-later
-- repo: scoop
-  subrepo: main
-  binname: cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: null
-  status: newest
-  licenses:
-    - GPL-3.0-only
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -46,6 +81,19 @@
     - omni+alpine@hack.org
   licenses:
     - GPL-3.0-or-later
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -187,19 +235,6 @@
     - misc
 - repo: debian_14
   subrepo: forky/main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2+dfsg-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
   srcname: cyme
   binnames:
     - cyme
@@ -403,50 +438,6 @@
     - Unicode-3.0
   categories:
     - sys-apps
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: cyme
-  binname: cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: newest
-  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
-  licenses:
-    - GPL-3.0-or-later
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: cyme
-  binname: cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: newest
-  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
-  licenses:
-    - GPL-3.0-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: cyme
-  binname: cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: newest
-  summary: List system USB buses and devices; a lib and modern cross-platform lsusb
-  licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_24_05
-  srcname: cyme
-  visiblename: cyme
-  version: 1.6.0
-  origversion: null
-  status: outdated
-  summary: A modern cross-platform lsusb
-  maintainers:
-    - h7x4@nani.wtf
-  licenses:
-    - GPL-3.0-or-later
 - repo: nix_stable_24_11
   srcname: cyme
   visiblename: cyme
@@ -514,7 +505,7 @@
   licenses:
     - GPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: cyme
   binnames:
     - cyme
@@ -527,7 +518,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: cyme
   binnames:
     - cyme
@@ -578,6 +569,15 @@
     - dr@jones.dk
   categories:
     - misc
+- repo: scoop
+  subrepo: main
+  binname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: null
+  status: newest
+  licenses:
+    - GPL-3.0-only
 - repo: t2
   srcname: cyme
   visiblename: cyme
@@ -645,19 +645,6 @@
     - universe/misc
 - repo: ubuntu_27_04
   subrepo: tenacious/universe
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 3.0.1
-  origversion: 3.0.1+dfsg-3
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
   srcname: cyme
   binnames:
     - cyme
