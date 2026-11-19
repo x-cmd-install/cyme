@@ -9,6 +9,13 @@
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: null
+  status: newest
+  summary: List system USB buses and devices
 - repo: manjaro_testing
   subrepo: extra
   srcname: cyme
@@ -31,6 +38,13 @@
   summary: List system USB buses and devices; a lib and modern cross-platform lsusb
   licenses:
     - GPL-3.0-or-later
+- repo: homebrew
+  srcname: cyme
+  visiblename: cyme
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: List system USB buses and devices
 - repo: nix_stable_24_05
   srcname: cyme
   visiblename: cyme
@@ -42,6 +56,41 @@
     - h7x4@nani.wtf
   licenses:
     - GPL-3.0-or-later
+- repo: nix_stable_24_11
+  srcname: cyme
+  visiblename: cyme
+  version: 1.8.4
+  origversion: null
+  status: outdated
+  summary: Modern cross-platform lsusb
+  maintainers:
+    - h7x4@nani.wtf
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_25_05
+  srcname: cyme
+  visiblename: cyme
+  version: 2.2.0
+  origversion: null
+  status: outdated
+  summary: Modern cross-platform lsusb
+  maintainers:
+    - h7x4@nani.wtf
+  licenses:
+    - GPL-3.0-or-later
+- repo: kali_rolling
+  subrepo: main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -81,19 +130,6 @@
     - omni+alpine@hack.org
   licenses:
     - GPL-3.0-or-later
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2+dfsg-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: cyme
@@ -105,6 +141,17 @@
   summary: Fish completions for cyme
   maintainers:
     - omni+alpine@hack.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_25_11
+  srcname: cyme
+  visiblename: cyme
+  version: 2.2.8
+  origversion: null
+  status: outdated
+  summary: Modern cross-platform lsusb
+  maintainers:
+    - h7x4@nani.wtf
   licenses:
     - GPL-3.0-or-later
 - repo: alpine_3_24
@@ -246,6 +293,19 @@
     - dr@jones.dk
   categories:
     - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: cyme
+  binnames:
+    - cyme
+  visiblename: cyme
+  version: 3.0.2
+  origversion: 3.0.2+dfsg-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: cyme
@@ -321,33 +381,6 @@
   origversion: null
   status: outdated
   summary: List system USB buses and devices
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: null
-  status: newest
-  summary: List system USB buses and devices
-- repo: homebrew
-  srcname: cyme
-  visiblename: cyme
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: List system USB buses and devices
-- repo: kali_rolling
-  subrepo: main
-  srcname: cyme
-  binnames:
-    - cyme
-  visiblename: cyme
-  version: 3.0.2
-  origversion: 3.0.2+dfsg-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: sys-apps/cyme
   visiblename: sys-apps/cyme
@@ -438,39 +471,6 @@
     - Unicode-3.0
   categories:
     - sys-apps
-- repo: nix_stable_24_11
-  srcname: cyme
-  visiblename: cyme
-  version: 1.8.4
-  origversion: null
-  status: outdated
-  summary: Modern cross-platform lsusb
-  maintainers:
-    - h7x4@nani.wtf
-  licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_25_05
-  srcname: cyme
-  visiblename: cyme
-  version: 2.2.0
-  origversion: null
-  status: outdated
-  summary: Modern cross-platform lsusb
-  maintainers:
-    - h7x4@nani.wtf
-  licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_25_11
-  srcname: cyme
-  visiblename: cyme
-  version: 2.2.8
-  origversion: null
-  status: outdated
-  summary: Modern cross-platform lsusb
-  maintainers:
-    - h7x4@nani.wtf
-  licenses:
-    - GPL-3.0-or-later
 - repo: nix_stable_26_05
   srcname: cyme
   visiblename: cyme
