@@ -14,11 +14,11 @@ x install cyme
 
 ## 代码洞察
 
-合计: **38,930** 行代码（覆盖前 5 种语言、共 **55** 个文件）。
+合计: **38,921** 行代码（覆盖前 5 种语言、共 **55** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 28,809 | 594 | 2,911 | 39 |
+| Rust | 28,800 | 593 | 2,909 | 39 |
 | Json | 9,205 | 0 | 0 | 11 |
 | Bash | 215 | 0 | 3 | 1 |
 | Sh | 206 | 25 | 30 | 3 |
@@ -32,7 +32,7 @@ x install cyme
 ## 发布
 
 - **最新版本**: `v3.0.2` (2026-09-11)
-- **最近提交**: 2026-11-10
+- **最近提交**: 2026-11-18
 - **Release 含资产**: 6 个
 
 ## 流行度
@@ -41,18 +41,18 @@ x install cyme
 
 ## 累计统计
 
-- **发布数**: 57 · **已合并 PR**: 74 · **开放 PR**: 2 · **已关闭 issue**: 46 · **开放 issue**: 1 · **提交数**: 778
+- **发布数**: 57 · **已合并 PR**: 75 · **开放 PR**: 2 · **已关闭 issue**: 46 · **开放 issue**: 1 · **提交数**: 779
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 1 | 0 | 0 | 1 |
-| last60d | 2026-09-18 | 0 | 0 | 1 | 0 | 0 | 1 |
-| 90d | 2026-08-19 | 1 | 1 | 1 | 0 | 0 | 3 |
-| last180d | 2026-05-21 | 3 | 9 | 2 | 1 | 1 | 23 |
-| 360d | 2025-11-22 | 7 | 27 | 2 | 5 | 1 | 119 |
-| last720d | 2024-11-27 | 19 | 49 | 2 | 18 | 1 | 321 |
+| 30d | 2026-10-20 | 0 | 1 | 1 | 0 | 0 | 2 |
+| last60d | 2026-09-20 | 0 | 1 | 1 | 0 | 0 | 2 |
+| 90d | 2026-08-21 | 1 | 2 | 1 | 0 | 0 | 4 |
+| last180d | 2026-05-23 | 3 | 10 | 2 | 1 | 1 | 24 |
+| 360d | 2025-11-24 | 7 | 28 | 2 | 5 | 1 | 120 |
+| last720d | 2024-11-29 | 19 | 50 | 2 | 18 | 1 | 320 |
 
 ## Release 资产
 
@@ -65,6 +65,21 @@ x install cyme
 | [cyme-v3.0.2-x86_64-pc-windows-gnu.zip](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-pc-windows-gnu.zip) | 2.8 MiB | `native/win/x64` |
 | [cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz](https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz) | 3.0 MiB | `native/linux/x64/glibc` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/cyme) 上共有 **51** 个发行版报告此项目。**28** 个 ✅ 已是最新上游版本，**16** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.0.2` | ✅ latest |
+| Debian 14 | `3.0.2` | ✅ latest |
+| Debian 13 | `2.2.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.2.11` | ⚠️ outdated |
+| Arch | `3.0.2` | ✅ latest |
+| Homebrew | `3.0.2` | ✅ latest |
+| Nix unstable | `3.0.2` | ✅ latest |
+| Alpine edge | `3.0.2` | ✅ latest |
+
 ## 改进这些数据
 
 cyme 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `cyme` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -74,4 +89,4 @@ cyme 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:58:55Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T07:51:29Z._
